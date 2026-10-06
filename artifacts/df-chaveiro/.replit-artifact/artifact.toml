@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "DF Chaveiro JK"
+description = "Site da DF Chaveiro JK no Shopping JK, com serviços, vídeos reais e pedidos de orçamento pelo WhatsApp."
+version = "1.0.0"
+id = "artifacts/df-chaveiro"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19384
+
+[services.development]
+run = "pnpm --filter @workspace/df-chaveiro run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/df-chaveiro", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/df-chaveiro/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19384"
+BASE_PATH = "/"
