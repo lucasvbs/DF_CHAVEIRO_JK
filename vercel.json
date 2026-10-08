@@ -5,7 +5,7 @@
   "buildCommand": "BASE_PATH=/ PORT=4173 pnpm --filter @workspace/df-chaveiro run build",
   "outputDirectory": "artifacts/df-chaveiro/dist/public",
   "rewrites": [
-    { "source": "/((?!assets/|media/|favicon\\.svg).*)", "destination": "/index.html" }
+    { "source": "/((?!assets/|media/|robots\\.txt|sitemap\\.xml|favicon\\.svg|favicon\\.png).*)", "destination": "/index.html" }
   ],
   "headers": [
     {

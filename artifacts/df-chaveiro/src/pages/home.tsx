@@ -70,13 +70,13 @@ function Hero() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-5 pb-16 lg:grid-cols-[1.25fr_1fr] lg:pb-24">
         <div>
           <motion.p initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#feaa2e]/50 px-4 py-1.5 text-sm font-semibold text-[#feaa2e]">
-            <MapPin className="h-4 w-4" /> Shopping JK · desde 1985
+            <MapPin className="h-4 w-4" /> DF Chaveiro JK · Brasília
           </motion.p>
           <h1 className="font-display text-[clamp(3.4rem,6.5vw,6rem)]">
-            <Words text="Mais de 40 anos cuidando da sua chave." accent={[3, 4]} delay={0.2} />
+            <Words text="Chaveiro no Shopping JK desde 1985." accent={[2, 3]} delay={0.2} />
           </h1>
           <motion.p initial={{ opacity: 0.8, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="mt-7 max-w-xl text-lg text-white/75">
-            Cópia, abertura, fechadura e chave de carro com programação, no Shopping JK, com atendimento personalizado. Peça seu orçamento pelo WhatsApp.
+            Cópias de chaves, programação automotiva, fechaduras e abertura de portas e cofres no Shopping JK, em Brasília. Peça seu orçamento pelo WhatsApp.
           </motion.p>
           <motion.div initial={{ opacity: 0.8, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
             <WaButton id="hero" msg={MSG.default} className="text-lg">Pedir orçamento agora</WaButton>
