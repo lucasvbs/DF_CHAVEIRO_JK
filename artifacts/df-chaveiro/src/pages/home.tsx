@@ -391,7 +391,7 @@ function Footer({ onPrivacy }: { onPrivacy: () => void }) {
         <div>
           <img src={IMG.logo} alt="DF Chaveiro, desde 1985" className="h-20 w-auto rounded-xl bg-white px-3" />
           <p className="mt-4 font-semibold">{ADDRESS}</p>
-          <p className="text-sm">WhatsApp +55 (61) 9675-7995</p>
+          <p className="text-sm">WhatsApp +55 (61) 99675-7995</p>
         </div>
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-bold">
           {LINKS.map(([l, h]) => <a key={h} href={h} className="hover:underline">{l}</a>)}
