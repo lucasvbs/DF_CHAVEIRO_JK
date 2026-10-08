@@ -1,6 +1,6 @@
 const B = import.meta.env.BASE_URL;
 export const m = (f: string) => `${B}media/${f}`;
-export const PHONE = "5561985230454";
+export const PHONE = "556196757995";
 export const wa = (msg: string) => `https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;
 export const MSG = {
   default: "Olá, vim pelo site da DF Chaveiro JK e gostaria de um orçamento.",

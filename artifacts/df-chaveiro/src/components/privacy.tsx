@@ -22,7 +22,7 @@ export function Privacy({ open, onClose }: { open: boolean; onClose: () => void 
               <p><strong>Uso das informações da conversa.</strong> Nome, telefone e detalhes do serviço enviados por você no WhatsApp são usados apenas para responder ao orçamento e prestar o atendimento solicitado.</p>
               <p><strong>Serviços de terceiros.</strong> O mapa é fornecido pelo Google Maps e os vídeos são servidos diretamente por este site. Ao carregar o mapa, o Google pode tratar dados conforme sua própria política.</p>
               <p><strong>Seus direitos (LGPD).</strong> Você pode pedir informações, correção ou exclusão de dados que tenha nos enviado pelo WhatsApp, escrevendo para o mesmo número de atendimento.</p>
-              <p><strong>Contato.</strong> WhatsApp +55 (61) 98523-0454. Av. Hélio Prates, QNM 34, Área Especial 01, M Norte, Shopping JK.</p>
+              <p><strong>Contato.</strong> WhatsApp +55 (61) 9675-7995. Av. Hélio Prates, QNM 34, Área Especial 01, M Norte, Shopping JK.</p>
             </div>
           </motion.div>
         </motion.div>
